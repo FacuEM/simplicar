@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.header {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: black;
+}
+
+.left-h,
+.right-h {
+  flex: 50%;
+  display: flex;
+}
+
+.right-h {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-h {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img-h {
+  height: 80px;
+}
+
+.links-h {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.a-h {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.formWrap-h {
+  display: flex;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 25px;
+}
+
+.formWrap-h .input-h {
+  width: 100%;
+  border: 0;
+  height: 36px;
+  padding: 0 10px;
+  outline: 0;
+  order: 2;
+}
+
+.input-h::placeholder {
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.formWrap-h .btn-h {
+  background-color: #fff;
+  border: 1px solid #000;
+  height: 36px;
+  padding: 10px;
+  margin-left: 5px;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  order: 1;
+}
+
+.bi-search {
+  color: #a0a0a0;
+}

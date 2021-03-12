@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.main-cd {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.row-cd {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.container-cd {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.specsWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #5c5c5c;
+}
+
+.spec {
+  display: flex;
+  width: 100%;
+}
+
+.specsWrapper span {
+  width: 50%;
+  margin-bottom: 15px;
+  font-size: 10px;
+}
+.specsWrapper span {
+  width: 50%;
+  margin-bottom: 15px;
+  font-size: 10px;
+  margin-bottom: 7px;
+}
+.specsWrapper i {
+  width: 30px;
+  height: 30px;
+  margin-right: 2px;
+}
+
+.container-cd hr {
+  width: 100%;
+  margin-top: 0;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bottomSpecs-cd span {
+  margin-bottom: 7px;
+  margin-top: 0;
+}
+
+.formTitle-cd {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0;
+}
+
+.formText-cd {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #d0cac6;
+  margin-top: 5px;
+}
+
+.form-cd {
+  display: flex;
+  flex-direction: column;
+}
+.input-cd {
+  margin-top: 15px;
+  padding: 10px 10px;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px #d0cac6 solid;
+  font-size: 8px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+.button-cd {
+  margin-top: 20px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #ca202d;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 3px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner-cd {
+  background-color: #cccdcd;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bi-arrow-left {
+  margin-left: 35px;
+  margin-right: 5px;
+  color: #ca202d;
+}
+
+.banner-cd span {
+  font-size: 12px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.oneSpan-cd {
+  font-weight: bold;
+  color: #ca202d;
+}
+
+.threeSpan-cd {
+  color: #ca202d;
+}
+
+.twoSpan-cd,
+.fourSpan-cd {
+  color: #727171;
+}
+
+.banner-cd a {
+  text-decoration: none;
+  padding-bottom: 2.5px;
+}
+
+.carModel-cd {
+  margin: 20px auto 0;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+#card-cd {
+  margin-right: 20px;
+}
+
+.links-cd {
+  margin: 10px auto;
+  font-size: 10px;
+  font-weight: bold;
+  color: #ca202d;
+  text-transform: uppercase;
+}
+#space {
+  margin-left: 7px;
+  margin-right: 7px;
+}
