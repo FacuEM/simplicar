@@ -4,10 +4,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-bottom: 40px;
 }
 .row-cd {
-  width: 80%;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
@@ -17,7 +17,7 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0 25px;
 }
 
 .specsWrapper {
@@ -32,11 +32,6 @@
   width: 100%;
 }
 
-.specsWrapper span {
-  width: 50%;
-  margin-bottom: 15px;
-  font-size: 10px;
-}
 .specsWrapper span {
   width: 50%;
   margin-bottom: 15px;
@@ -151,10 +146,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-#card-cd {
-  margin-right: 20px;
-}
-
 .links-cd {
   margin: 10px auto;
   font-size: 10px;
@@ -165,4 +156,66 @@
 #space {
   margin-left: 7px;
   margin-right: 7px;
+}
+
+@media only screen and (max-width: 1130px) {
+  .main-cd {
+    margin-bottom: 80px;
+  }
+  .links-cd {
+    font-size: 8px;
+  }
+  .specsWrapper span {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .links-cd {
+    font-size: 7px;
+  }
+  .specsWrapper span {
+    font-size: 7px;
+  }
+  .formTitle-cd {
+    font-size: 25px;
+  }
+  .formText-cd {
+    font-size: 8px;
+  }
+  .main-cd {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .formTitle-cd {
+    font-size: 23px;
+  }
+  .formText-cd {
+    font-size: 9px;
+  }
+  .button-cd {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 805px) {
+  .row-cd {
+    flex-direction: column;
+  }
+  .container-cd {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .banner-cd span {
+    font-size: 8px;
+  }
+  .banner-cd i {
+    font-size: 8px;
+  }
+  .hidden-cd {
+    display: none;
+  }
 }

@@ -82,3 +82,9 @@
   border-left: #d0cac6 1px solid;
   border-right: #d0cac6 1px solid;
 }
+
+@media only screen and (max-width: 860px) {
+  .card-card {
+    width: 100%;
+  }
+}

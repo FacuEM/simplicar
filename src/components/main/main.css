@@ -3,6 +3,7 @@
   flex-direction: column;
   align-content: flex-start;
   margin-top: 50px;
+  margin-left: 45px;
 }
 
 .title-main h1 {
@@ -14,12 +15,6 @@
 
 .h1-m {
   margin: 0;
-}
-
-.title-main,
-.content-main,
-.button-main {
-  margin-left: 45px;
 }
 
 .content-main {
@@ -37,6 +32,7 @@
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 150px;
+  cursor: pointer;
 }
 
 .bi-arrow-right {
@@ -46,4 +42,16 @@
 
 .button-main {
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 780px) {
+  .button-main i {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-main {
+    margin: 40px 10px 0;
+  }
 }

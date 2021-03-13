@@ -6,6 +6,10 @@
 .footer {
   background-color: black;
   padding: 20px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .title-f {
   font-size: 25px;
@@ -67,4 +71,12 @@
 
 .socialsLinks-f {
   margin-top: 7px;
+}
+
+@media only screen and (max-width: 780px) {
+  .container-f {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

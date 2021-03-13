@@ -20,7 +20,7 @@ const Cars = () => {
     setCars(data);
   }, []);
 
-  if (cars.length <= 0) return null;
+  if (cars.length === 0) return null;
 
   return (
     <div className="cars">
@@ -29,7 +29,7 @@ const Cars = () => {
         <p className="quantity-cars">{cars.length} Vehículos</p>
 
         <div className="dropdowns-cars">
-          <div>
+          <div className="leftDropdowns-cars">
             <select className="select-cars" name="carroceria">
               <option value="" hidden>
                 CARROCERÍA
@@ -50,7 +50,7 @@ const Cars = () => {
               <option value="" hidden>
                 PRECIO
               </option>
-              <option value="belo20">Menor a 20.000</option>
+              <option value="below20">Menor a 20.000</option>
               <option value="above20">Mayor a 20.000</option>
               <option value="above25">Mayor a 25.000</option>
             </select>
@@ -68,7 +68,7 @@ const Cars = () => {
           {cars &&
             cars.map((car, i) => {
               const { gallery, model, amount, id } = car;
-              if (!model || !amount || !id || gallery.length <= 0) return null;
+              if (!model || !amount || !id || gallery.length === 0) return null;
               const configCard = { ...car };
               return <Card className="card-cars" key={i} {...configCard} />;
             })}

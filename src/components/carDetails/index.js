@@ -46,13 +46,13 @@ const CarDetails = () => {
           <i class="bi bi-arrow-left"></i>
           <span className="oneSpan-cd">Volver a la tienda</span>
         </Link>
-        <span className="twoSpan-cd">/</span>
-        <span className="threeSpan-cd">{details.model}</span>
-        <span className="fourSpan-cd">/</span>
-        <span className="fivepan-cd">Enviar cotización por mail</span>
+        <span className="twoSpan-cd hidden-cd">/</span>
+        <span className="threeSpan-cd hidden-cd ">{details.model}</span>
+        <span className="fourSpan-cd hidden-cd">/</span>
+        <span className="fivepan-cd hidden-cd">Enviar cotización por mail</span>
       </div>
       <div className="row-cd">
-        <div className="container-cd" id="card-cd">
+        <div className="container-cd">
           {details.hasOwnProperty("detail") && (
             <>
               <h1 className="carModel-cd">{details.model}</h1>

@@ -77,3 +77,50 @@
 .bi-search {
   color: #a0a0a0;
 }
+
+#responsiveBtn {
+  display: none;
+  margin-left: 25px;
+  background-color: #fff;
+  border: 1px solid #000;
+  height: 36px;
+  padding: 5px 7px;
+  border-radius: 4px;
+}
+
+#responsiveBtn i {
+  font-size: 20px;
+}
+
+.left-h #hidden {
+  display: flex;
+}
+
+@media only screen and (max-width: 650px) {
+  #responsiveBtn {
+    display: flex;
+  }
+
+  .links-h {
+    display: none;
+  }
+
+  .left-h #hidden {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    height: 230px;
+    max-height: 230px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .formWrap-h {
+    display: none;
+  }
+}
